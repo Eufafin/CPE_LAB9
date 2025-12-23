@@ -2,6 +2,19 @@
 using namespace std;
 
 //Write the function printO() here
+void printO(int row , int amount){
+	int i,j;
+	if(row <= 0 || amount <= 0){
+		cout << "Invalid input";
+	}else{
+	for(i=1;i<=row;i++){
+		for(j=1;j<=amount;j++){
+			cout << "O";
+		}
+		cout << "\n";
+	}
+	}
+}
 
 int main(){
 	
